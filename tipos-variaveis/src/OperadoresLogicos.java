@@ -15,7 +15,7 @@ public class OperadoresLogicos {
         }
 
         if (condicao1 && (7 > 4)){
-            System.out.println("As duas condições são verdadeiras.");
+            System.out.println("As duas condições são verdadeiras."); 
         }
 
         System.out.println("FIM.");

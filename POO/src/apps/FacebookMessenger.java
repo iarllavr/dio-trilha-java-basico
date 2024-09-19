@@ -1,8 +1,9 @@
 public class FacebookMessenger extends ServicoMensagemInstantanea {
-
+    
     @Override
     public void enviarMensagem() {
         // TODO Auto-generated method stub
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo Facebook Messenger");
     }
 
@@ -11,5 +12,4 @@ public class FacebookMessenger extends ServicoMensagemInstantanea {
         // TODO Auto-generated method stub
         System.out.println("Recebendo mensagem pelo Facebook Messenger");
     }
-    
 }

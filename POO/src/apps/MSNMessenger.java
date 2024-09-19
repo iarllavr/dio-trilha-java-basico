@@ -3,6 +3,7 @@ public class MSNMessenger extends ServicoMensagemInstantanea {
     @Override
     public void enviarMensagem() {
         // TODO Auto-generated method stub
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo MSN Messenger");
     }
 

@@ -22,4 +22,9 @@ public abstract class ServicoMensagemInstantanea {
     public abstract void enviarMensagem();
     public abstract void receberMensagem();
 
+    //somente os filhos e classes do mesmo pacoteconhecem esse método
+    protected void validarConectadoInternet(){
+        System.out.println("Validar se está conectado a internet");
+    }
+
 }
